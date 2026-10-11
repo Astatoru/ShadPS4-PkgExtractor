@@ -1,6 +1,6 @@
 # ShadPS4-PkgExtractor Linux Wrapper Script
 
-Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlus/shadPS4Plus) that automatically detects PKG types (Base Game, Update, DLC) and installs them to the correct directory.
+Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlus/shadPS4Plus) that extracts packages (.pkg) and puts them into correct directories.
 
 ## Requirements
 
