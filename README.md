@@ -27,7 +27,11 @@ Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlu
 
 ## Example
 
-Install base game and update:
+- Install base game and update:
 ```bash
 ./extract --game-directory /path/to/games/directory package_game.pkg package_update.pkg
+```
+- Extract game in place (creates a directory next to the .pkg file):
+```bash
+./extract package_game.pkg package_update.pkg
 ```
