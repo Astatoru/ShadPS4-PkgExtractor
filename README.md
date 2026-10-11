@@ -25,7 +25,7 @@ Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlu
 
 ** **Settings > Configure > Paths > DLC Path**
 
-## Example
+## Examples
 
 - Install base game and update:
 ```bash
