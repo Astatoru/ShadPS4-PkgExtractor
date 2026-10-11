@@ -15,7 +15,7 @@ Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlu
 
 ### Options
 
-| Option | Description | Default |
+| Option | Description | Default Value |
 | :--- | :--- | :--- |
 | `-g, --games-directory` | Path to ShadPS4 games directory* | None |
 | `-a, --addons-directory` | Path to DLC directory** | `~/.local/share/shadPS4/addcont` |
