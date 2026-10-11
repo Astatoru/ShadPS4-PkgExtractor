@@ -127,6 +127,7 @@ parseOpts() {
     fi
 }
 
+# Check directory permissions
 checkDirectoryPermissions() {
     local directory="$1"
 

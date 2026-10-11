@@ -1,0 +1,33 @@
+# ShadPS4-PkgExtractor Linux Wrapper Script
+
+Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlus/shadPS4Plus) that automatically detects PKG types (Base Game, Update, DLC) and installs them to the correct directory.
+
+## Requirements
+
+- Linux
+- Executable `extractor.AppImage` placed in the same directory (you can use executable from original repository if you don't trust mine)
+
+## Usage
+
+```bash
+./extract [OPTIONS] PACKAGE.pkg [PACKAGE2.pkg ...]
+```
+
+### Options
+
+| Option | Description | Default |
+| :--- | :--- | :--- |
+| `-g, --games-directory` | Path to ShadPS4 games directory* | None |
+| `-a, --addons-directory` | Path to DLC directory** | `~/.local/share/shadPS4/addcont` |
+| `-h, --help` | Display help message | - |
+
+\* **Settings > Configure > Paths > Game Folders**
+
+** **Settings > Configure > Paths > DLC Path**
+
+## Example
+
+Install base game and update:
+```bash
+./extract --game-directory /path/to/games/directory package_game.pkg package_update.pkg
+```
