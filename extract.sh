@@ -3,7 +3,7 @@
 #
 # Author: https://github.com/Astatoru
 # Name: extract
-# Description: Wrapper script for pkg extractor tool (https://github.com/AzaharPlus/shadPS4Plus)
+# Description: Wrapper script for ShadPS4Plus pkg extractor tool (https://github.com/AzaharPlus/shadPS4Plus)
 # Dependencies: extractor.AppImage
 
 # Strict error handling
@@ -72,9 +72,9 @@ checkArgs() {
 
 # Parse options and arguments
 parseOpts() {
-    local ARGS
+    local args
 
-    ARGS=$(getopt \
+    args=$(getopt \
         --longoptions "help,games-directory:,addons-directory:" \
         --options "hg:a:" \
         --name $'\033[01;31mERROR\033[0m' \
@@ -84,7 +84,7 @@ parseOpts() {
         exit 1
     }
 
-    eval set -- "$ARGS"
+    eval set -- "$args"
 
     while true; do
         case $1 in

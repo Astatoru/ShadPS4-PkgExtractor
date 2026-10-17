@@ -1,4 +1,4 @@
-# ShadPS4-PkgExtractor Linux Wrapper Script
+# ShadPS4Plus-PkgExtractor Linux Wrapper Script
 
 Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlus/shadPS4Plus) that extracts packages (.pkg) and puts them into correct directories.
 
@@ -17,13 +17,13 @@ Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlu
 
 | Option | Description | Default Value |
 | :--- | :--- | :--- |
-| `-g, --games-directory` | Path to ShadPS4 games directory* | None |
+| `-g, --games-directory` | Path to games directory* | None |
 | `-a, --addons-directory` | Path to DLC directory** | `~/.local/share/shadPS4/addcont` |
 | `-h, --help` | Display help message | - |
 
 \* **Settings > Configure > Paths > Game Folders**
 
-** **Settings > Configure > Paths > DLC Path**
+\** **Settings > Configure > Paths > DLC Path**
 
 ## Examples
 
@@ -31,7 +31,7 @@ Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlu
 ```bash
 ./extract --game-directory /path/to/games/directory package_game.pkg package_update.pkg
 ```
-- Extract game in place (next to the .pkg file):
+- Extract game and update in place (next to .pkg file):
 ```bash
 ./extract package_game.pkg package_update.pkg
 ```
