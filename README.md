@@ -10,7 +10,7 @@ Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlu
 ## Usage
 
 ```bash
-./extract [OPTIONS] PACKAGE.pkg [PACKAGE2.pkg ...]
+./extract.sh [OPTIONS] PACKAGE.pkg [PACKAGE2.pkg ...]
 ```
 
 ### Options
@@ -29,9 +29,9 @@ Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlu
 
 - Extract base game and update:
 ```bash
-./extract --game-directory /path/to/games/directory package_game.pkg package_update.pkg
+./extract.sh --game-directory /path/to/games/directory package_game.pkg package_update.pkg
 ```
 - Extract game and update in place (next to .pkg file):
 ```bash
-./extract package_game.pkg package_update.pkg
+./extract.sh package_game.pkg package_update.pkg
 ```
