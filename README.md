@@ -1,4 +1,4 @@
-# ShadPS4Plus-PkgExtractor Linux Wrapper Script
+# ShadPS4Plus-WraperScript
 
 Wrapper script for the [shadPS4Plus extractor tool](https://github.com/AzaharPlus/shadPS4Plus) that extracts packages (.pkg) and puts them into correct directories.
 
